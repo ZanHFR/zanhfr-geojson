@@ -1,0 +1,33 @@
+{
+  "name": "zanhfr-geojson",
+  "version": "1.0.0",
+  "description": "A simple NodeJS host to host GeoJSON for Zanzibar health facilities mapping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ZanHFR/zanhfr-geojson.git"
+  },
+  "keywords": [
+    "geojson",
+    "map",
+    "zanzibar",
+    "host"
+  ],
+  "author": "Kizito Mrema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZanHFR/zanhfr-geojson/issues"
+  },
+  "homepage": "https://github.com/ZanHFR/zanhfr-geojson#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
